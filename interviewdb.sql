@@ -45,17 +45,17 @@ CREATE TABLE IF NOT EXISTS `applicant_table` (
 --
 
 INSERT INTO `applicant_table` (`id`, `first_name`, `middle_name`, `last_name`, `birthdate`, `gender`, `cellphone_no`, `address`) VALUES
-(22, 'Mary', 'Jane', 'Watson', '1993-04-04', 'Female', '987-654-3210', '101 Pine Street'),
-(23, 'Bruce', 'Wayne', 'Wayne', '1994-05-05', 'Male', '888-888-8888', '111 Maple Street'),
+(22, 'Mary', 'Jane', 'Watson', '1993-04-04', 'Female', '09234765819', '101 Pine Street'),
+(23, 'Bruce', 'Wayne', 'Wayne', '1994-05-05', 'Male', '09423768159', '111 Maple Street'),
 (18, 'Marc Racille', 'De Mesa', 'Arenga', '2023-01-10', 'Male', '09615365321', 'Limao, Calauan, Laguna'),
-(19, 'John', 'Doe', 'Smith', '1990-01-01', 'Male', '123-456-7890', '123 Main Street'),
-(20, 'Jane', 'Doe', 'Williams', '1991-02-02', 'Female', '098-765-4321', '456 Elm Street'),
-(21, 'Peter', 'Parker', 'Parker', '1992-03-03', 'Male', '555-555-5555', '789 Oak Street'),
-(24, 'Clark', 'Kent', 'Kent', '1995-06-06', 'Male', '777-777-7777', '121 Birch Street'),
-(25, 'Diana', 'Prince', 'Prince', '1996-07-07', 'Female', '666-666-6666', '131 Willow Street'),
-(26, 'Tony', 'Stark', 'Stark', '1997-08-08', 'Male', '555-555-5555', '141 Elm Street'),
-(27, 'Steve', 'Rogers', 'Rogers', '1998-09-09', 'Male', '444-444-4444', '151 Oak Street'),
-(28, 'Thor', 'Odinson', 'Odinson', '1999-10-10', 'Male', '333-333-3333', '161 Pine Street');
+(19, 'John', 'Doe', 'Smith', '1990-01-01', 'Male', '09321468957', '123 Main Street'),
+(20, 'Jane', 'Doe', 'Williams', '1991-02-02', 'Female', '09782365419', '456 Elm Street'),
+(21, 'Peter', 'Parker', 'Parker', '1992-03-03', 'Male', '09782365419', '789 Oak Street'),
+(24, 'Clark', 'Kent', 'Kent', '1995-06-06', 'Male', '09782365419', '121 Birch Street'),
+(25, 'Diana', 'Prince', 'Prince', '1996-07-07', 'Female', '09782365419', '131 Willow Street'),
+(26, 'Tony', 'Stark', 'Stark', '1997-08-08', 'Male', '09782365419', '141 Elm Street'),
+(27, 'Steve', 'Rogers', 'Rogers', '1998-09-09', 'Male', '09123456789', '151 Oak Street'),
+(28, 'Thor', 'Odinson', 'Odinson', '1999-10-10', 'Male', '09374621589', '161 Pine Street');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
